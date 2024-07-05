@@ -10,10 +10,3 @@ Theo Avila<sup>1*</sup>, David Lafferty<sup>2</sup>, Madeline Stover<sup>2</sup>
 <sup>4</sup> Department of Earth and Environment, Boston University, Boston, MA, United States of America<br>
 
 <sup>*</sup> corresponding author: ctavila2@illinois.edu
-
-### 
-
-Notes for self:
-
-99_ means the code has not been cleaned, and made more readable<br>
-Still need to find the table code, as well as include davids code
