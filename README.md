@@ -15,5 +15,5 @@ Theo Avila<sup>1*</sup>, David Lafferty<sup>2</sup>, Madeline Stover<sup>2</sup>
 
 Notes for self:
 
-99_ means the code has not been cleaned, and made more readable<br>
-Still need to find the table code, as well as include davids code
+98_+ means the code has not been cleaned and made more readable. This code was written a long time ago when I did not have the best programming skills, so it should be parsed through to improve readability, as well as optimize some slow processes to make code more usable in the future. <br>
+Still need to find the table code, as well as include any of David's or Ian's code
