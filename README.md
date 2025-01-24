@@ -10,11 +10,3 @@ Theo Avila<sup>1*</sup>, David Lafferty<sup>2</sup>, Madeline Stover<sup>2</sup>
 <sup>4</sup> Department of Earth and Environment, Boston University, Boston, MA, United States of America<br>
 
 <sup>*</sup> corresponding author: ctavila2@illinois.edu
-
-### 
-
-Notes for self:
-
-notebook 80_+ means the code has not been cleaned and made more readable. This code was written a long time ago when I did not have the best programming skills, so it should be parsed through to improve readability, as well as optimize some slow processes to make code more usable in the future. <br>
-Need to include any of David's or Ian's code <br>
-Might need to make filepaths, or ip addresses private ? <br>
