@@ -1,3 +1,14 @@
 Sourcing Conda
 Activating WFPIenv
 Running Python script
+2025-01-24 20:00:07,308 - distributed.scheduler - ERROR - Task coarsened_all-e21f1e1c-885a-4ad8-aa94-22e2dbbfb80a marked as failed because 4 workers died while trying to run it
+2025-01-24 20:00:07,309 - distributed.scheduler - ERROR - Task coarsened_all-e79bc979-1a3b-4535-9c0e-05ca5bc6e568 marked as failed because 4 workers died while trying to run it
+Traceback (most recent call last):
+  File "/data/keeling/a/ctavila2/2024_FWI_CMIP5_Ensemble_Avila/notebooks/0_CMIP5_datacleaning.py", line 110, in <module>
+    results = dask.compute(*delayed)  # Specify distributed scheduler
+  File "/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/dask/base.py", line 662, in compute
+    results = schedule(dsk, keys, **kwargs)
+  File "/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/client.py", line 2428, in _gather
+    raise exception.with_traceback(traceback)
+distributed.scheduler.KilledWorker: Attempted to run task 'coarsened_all-e79bc979-1a3b-4535-9c0e-05ca5bc6e568' on 4 different workers, but all those workers died while running it. The last worker that attempt to run the task was tcp://172.22.179.31:45623. Inspecting worker logs is often a good next step to diagnose what went wrong. For more information see https://distributed.dask.org/en/stable/killed.html.
+Python script execution failed
