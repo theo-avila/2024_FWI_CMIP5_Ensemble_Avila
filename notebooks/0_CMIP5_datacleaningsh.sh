@@ -2,7 +2,7 @@
 #SBATCH --job-name=0cmip5cleaning
 #SBATCH --output=0cmip5cleaning_output.log
 #SBATCH --partition=seseml
-#SBATCH --ntasks=1
+#SBATCH --ntasks=10
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=220GB
 #SBATCH --time=23:00:00

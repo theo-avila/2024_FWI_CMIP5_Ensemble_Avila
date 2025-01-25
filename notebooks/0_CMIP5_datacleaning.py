@@ -52,8 +52,8 @@ def coarsened_all(model, start_day, end_day, lon_max, lon_min, lat_max, lat_min)
         file_path = f"{base_path_H}{year}_{year + 4}_CONUS_daily.nc"
         
         # Open the dataset and append it to the list
-        ds = xr.open_dataset(file_path, chunks={'time': 'auto'})
-        ds_1979_2010 = concatenated_ds.sel(time=slice('1979-01-01', '2022-10-31'))
+        ds = xr.open_dataset(file_path)
+        ds_1979_2010 = ds.sel(time=slice('1979-01-01', '2022-10-31'))
 
         # Use .groupby() to group the data by year
         grouped_ds = ds_1979_2010.groupby('time.year')
@@ -79,8 +79,8 @@ def coarsened_all(model, start_day, end_day, lon_max, lon_min, lat_max, lat_min)
         "/data/keeling/a/davidcl2/d/MACA/FWI_RHmin/historical/out/comp/macav2metdata_fwi_" + model + "_r1i1p1_historical_2005_2005_CONUS_daily.nc"
     )
     
-    ds = xr.open_dataset(filein2005, chunks={'time': 'auto'})
-    ds_1979_2010 = concatenated_ds.sel(time=slice('1979-01-01', '2022-10-31'))
+    ds = xr.open_dataset(filein2005)
+    ds_1979_2010 = ds.sel(time=slice('1979-01-01', '2022-10-31'))
 
     # Use .groupby() to group the data by year
     grouped_ds = ds_1979_2010.groupby('time.year')
@@ -106,8 +106,8 @@ def coarsened_all(model, start_day, end_day, lon_max, lon_min, lat_max, lat_min)
         file_path = f"{base_path_85}{year}_{year + 4}_CONUS_daily.nc"
         
         # Open the dataset and append it to the list
-        ds = xr.open_dataset(file_path, chunks={'time': 'auto'})
-        ds_1979_2010 = concatenated_ds.sel(time=slice('1979-01-01', '2022-10-31'))
+        ds = xr.open_dataset(file_path)
+        ds_1979_2010 = ds.sel(time=slice('1979-01-01', '2022-10-31'))
 
         # Use .groupby() to group the data by year
         grouped_ds = ds_1979_2010.groupby('time.year')
