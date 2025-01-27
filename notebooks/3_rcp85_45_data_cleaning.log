@@ -1,0 +1,231 @@
+Sourcing Conda
+Activating WFPIenv
+Starting Dask Scheduler
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_scheduler.py:142: FutureWarning: dask-scheduler is deprecated and will be removed in a future release; use `dask scheduler` instead
+  warnings.warn(
+2025-01-26 17:46:02,429 - distributed.scheduler - INFO - -----------------------------------------------
+2025-01-26 17:46:03,674 - distributed.http.proxy - INFO - To route to workers diagnostics web server please install jupyter-server-proxy: python -m pip install jupyter-server-proxy
+2025-01-26 17:46:03,761 - distributed.scheduler - INFO - State start
+2025-01-26 17:46:03,763 - distributed.diskutils - INFO - Found stale lock file and directory '/tmp/dask-scratch-space/scheduler-ykz15igf', purging
+2025-01-26 17:46:03,766 - distributed.scheduler - INFO - -----------------------------------------------
+2025-01-26 17:46:03,767 - distributed.scheduler - INFO -   Scheduler at: tcp://172.22.179.167:8786
+2025-01-26 17:46:03,768 - distributed.scheduler - INFO -   dashboard at:         /proxy/8787/status
+2025-01-26 17:46:03,768 - distributed.scheduler - INFO - Registering Worker plugin shuffle
+Launching Dask Workers
+Running Python script
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+2025-01-26 17:46:06,348 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:32831'
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+2025-01-26 17:46:06,387 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:34203'
+2025-01-26 17:46:06,389 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:44870'
+2025-01-26 17:46:06,398 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:46345'
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+2025-01-26 17:46:06,451 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:39593'
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+/data/keeling/a/ctavila2/mambaforge/envs/FWI/lib/python3.9/site-packages/distributed/cli/dask_worker.py:266: FutureWarning: dask-worker is deprecated and will be removed in a future release; use `dask worker` instead
+  warnings.warn(
+2025-01-26 17:46:06,521 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:41895'
+2025-01-26 17:46:06,522 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:35085'
+2025-01-26 17:46:06,546 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:35666'
+2025-01-26 17:46:06,550 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:35685'
+2025-01-26 17:46:06,555 - distributed.nanny - INFO -         Start Nanny at: 'tcp://127.0.0.1:42051'
+2025-01-26 17:46:07,470 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:34733
+2025-01-26 17:46:07,470 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:34733
+2025-01-26 17:46:07,470 - distributed.worker - INFO -          dashboard at:            127.0.0.1:43817
+2025-01-26 17:46:07,471 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,471 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,471 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,471 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,471 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-7rx3ymfb
+2025-01-26 17:46:07,471 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,492 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:36874
+2025-01-26 17:46:07,492 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:36874
+2025-01-26 17:46:07,492 - distributed.worker - INFO -          dashboard at:            127.0.0.1:36432
+2025-01-26 17:46:07,492 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,492 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,492 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,493 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,493 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-z1ryoq23
+2025-01-26 17:46:07,493 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,502 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:42899
+2025-01-26 17:46:07,502 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:42219
+2025-01-26 17:46:07,502 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:42899
+2025-01-26 17:46:07,502 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:42219
+2025-01-26 17:46:07,502 - distributed.worker - INFO -          dashboard at:            127.0.0.1:33567
+2025-01-26 17:46:07,502 - distributed.worker - INFO -          dashboard at:            127.0.0.1:45152
+2025-01-26 17:46:07,502 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,503 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,503 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,503 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,503 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,503 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,503 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,503 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,503 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-nh5a22lz
+2025-01-26 17:46:07,503 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-6zl75o6i
+2025-01-26 17:46:07,503 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,503 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,548 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:33172
+2025-01-26 17:46:07,548 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:33172
+2025-01-26 17:46:07,548 - distributed.worker - INFO -          dashboard at:            127.0.0.1:35808
+2025-01-26 17:46:07,548 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,549 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,549 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,549 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,549 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-u977lj94
+2025-01-26 17:46:07,549 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,624 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:42335
+2025-01-26 17:46:07,624 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:42335
+2025-01-26 17:46:07,625 - distributed.worker - INFO -          dashboard at:            127.0.0.1:45645
+2025-01-26 17:46:07,625 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,625 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,625 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,625 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,625 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-3fsu28y5
+2025-01-26 17:46:07,625 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,649 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:38852
+2025-01-26 17:46:07,649 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:38852
+2025-01-26 17:46:07,649 - distributed.worker - INFO -          dashboard at:            127.0.0.1:45829
+2025-01-26 17:46:07,649 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,649 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,650 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,650 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,650 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-4lmqgx13
+2025-01-26 17:46:07,650 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,665 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:35555
+2025-01-26 17:46:07,666 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:35555
+2025-01-26 17:46:07,666 - distributed.worker - INFO -          dashboard at:            127.0.0.1:37781
+2025-01-26 17:46:07,666 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,666 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,666 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,666 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,667 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-ew27sa3g
+2025-01-26 17:46:07,667 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,671 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:46060
+2025-01-26 17:46:07,672 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:46060
+2025-01-26 17:46:07,672 - distributed.worker - INFO -          dashboard at:            127.0.0.1:39936
+2025-01-26 17:46:07,672 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,672 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,672 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,672 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,673 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-0gzqsk_z
+2025-01-26 17:46:07,673 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,678 - distributed.worker - INFO -       Start worker at:      tcp://127.0.0.1:34245
+2025-01-26 17:46:07,678 - distributed.worker - INFO -          Listening to:      tcp://127.0.0.1:34245
+2025-01-26 17:46:07,678 - distributed.worker - INFO -          dashboard at:            127.0.0.1:38567
+2025-01-26 17:46:07,678 - distributed.worker - INFO - Waiting to connect to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:07,679 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,679 - distributed.worker - INFO -               Threads:                          1
+2025-01-26 17:46:07,679 - distributed.worker - INFO -                Memory:                  18.63 GiB
+2025-01-26 17:46:07,679 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-wsyowcx4
+2025-01-26 17:46:07,679 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:07,896 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:34733', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,349 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:34733
+2025-01-26 17:46:08,350 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44264
+2025-01-26 17:46:08,350 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,351 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,351 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,352 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,353 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:36874', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,353 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:36874
+2025-01-26 17:46:08,353 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44266
+2025-01-26 17:46:08,354 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:42219', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,354 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:42219
+2025-01-26 17:46:08,354 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44270
+2025-01-26 17:46:08,354 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:42899', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,355 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:42899
+2025-01-26 17:46:08,355 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44268
+2025-01-26 17:46:08,354 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,355 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:33172', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,355 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:33172
+2025-01-26 17:46:08,355 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44272
+2025-01-26 17:46:08,356 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,356 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:42335', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,356 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,356 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:42335
+2025-01-26 17:46:08,356 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44274
+2025-01-26 17:46:08,357 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:38852', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,355 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,356 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,356 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,357 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:38852
+2025-01-26 17:46:08,357 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44276
+2025-01-26 17:46:08,357 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,357 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,357 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:35555', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,357 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,356 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,357 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,357 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,358 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:35555
+2025-01-26 17:46:08,357 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,358 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44278
+2025-01-26 17:46:08,358 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:46060', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,358 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,358 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,358 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:46060
+2025-01-26 17:46:08,358 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,358 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44280
+2025-01-26 17:46:08,358 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,358 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,359 - distributed.scheduler - INFO - Register worker <WorkerState 'tcp://127.0.0.1:34245', status: init, memory: 0, processing: 0>
+2025-01-26 17:46:08,359 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,359 - distributed.scheduler - INFO - Starting worker compute stream, tcp://127.0.0.1:34245
+2025-01-26 17:46:08,359 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44282
+2025-01-26 17:46:08,359 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,359 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,359 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,360 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,360 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,360 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,360 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,360 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,360 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-01-26 17:46:08,361 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,361 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,361 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,361 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,361 - distributed.worker - INFO -         Registered to:       tcp://127.0.0.1:8786
+2025-01-26 17:46:08,362 - distributed.worker - INFO - -------------------------------------------------
+2025-01-26 17:46:08,362 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,363 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:8786
+2025-01-26 17:46:08,729 - distributed.scheduler - INFO - Receive client connection: Client-b73b31a1-dc3f-11ef-9c27-98b7851ff9a6
+2025-01-26 17:46:08,730 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44284
+2025-01-26 17:46:27,894 - distributed.scheduler - INFO - Receive client connection: Client-worker-c2ac52fe-dc3f-11ef-9ce8-98b7851ff9a6
+2025-01-26 17:46:27,896 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44344
+2025-01-26 17:46:31,341 - distributed.scheduler - INFO - Receive client connection: Client-worker-c4b9555c-dc3f-11ef-9cd0-98b7851ff9a6
+2025-01-26 17:46:31,341 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44370
+2025-01-26 17:46:37,053 - distributed.scheduler - INFO - Receive client connection: Client-worker-c821c9b9-dc3f-11ef-9ce2-98b7851ff9a6
+2025-01-26 17:46:37,054 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44390
+2025-01-26 17:46:40,282 - distributed.scheduler - INFO - Receive client connection: Client-worker-ca0e2a4c-dc3f-11ef-9cde-98b7851ff9a6
+2025-01-26 17:46:40,283 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44410
+2025-01-26 17:46:44,243 - distributed.scheduler - INFO - Receive client connection: Client-worker-cc6aae1c-dc3f-11ef-9cdb-98b7851ff9a6
+2025-01-26 17:46:44,245 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44412
+2025-01-26 17:46:51,050 - distributed.scheduler - INFO - Receive client connection: Client-worker-d079856d-dc3f-11ef-9d0b-98b7851ff9a6
+2025-01-26 17:46:51,050 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44432
+2025-01-26 17:47:09,605 - distributed.scheduler - INFO - Receive client connection: Client-worker-db887226-dc3f-11ef-9d0e-98b7851ff9a6
+2025-01-26 17:47:09,607 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44470
+2025-01-26 17:47:16,675 - distributed.scheduler - INFO - Receive client connection: Client-worker-dfbf96a5-dc3f-11ef-9cf9-98b7851ff9a6
+2025-01-26 17:47:16,676 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44472
+2025-01-26 17:47:32,536 - distributed.scheduler - INFO - Receive client connection: Client-worker-e9334404-dc3f-11ef-9d08-98b7851ff9a6
+2025-01-26 17:47:32,538 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44492
+2025-01-26 17:47:41,548 - distributed.scheduler - INFO - Receive client connection: Client-worker-ee9318e0-dc3f-11ef-9cf7-98b7851ff9a6
+2025-01-26 17:47:41,549 - distributed.core - INFO - Starting established connection to tcp://127.0.0.1:44514
+2025-01-26 17:49:00,189 - distributed.scheduler - INFO - Remove client Client-b73b31a1-dc3f-11ef-9c27-98b7851ff9a6
+2025-01-26 17:49:00,190 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44284; closing.
+2025-01-26 17:49:00,191 - distributed.scheduler - INFO - Remove client Client-b73b31a1-dc3f-11ef-9c27-98b7851ff9a6
+2025-01-26 17:49:00,193 - distributed.scheduler - INFO - Close client connection: Client-b73b31a1-dc3f-11ef-9c27-98b7851ff9a6
