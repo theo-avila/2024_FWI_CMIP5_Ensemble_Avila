@@ -229,3 +229,156 @@ Running Python script
 2025-01-26 17:49:00,190 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44284; closing.
 2025-01-26 17:49:00,191 - distributed.scheduler - INFO - Remove client Client-b73b31a1-dc3f-11ef-9c27-98b7851ff9a6
 2025-01-26 17:49:00,193 - distributed.scheduler - INFO - Close client connection: Client-b73b31a1-dc3f-11ef-9c27-98b7851ff9a6
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 9388152.8 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 9388152.9 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 9388152.7 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 9388152.6 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 9388152.4 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 9388152.5 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 9388152.3 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 9388152.2 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 9388152.0 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 9388152.1 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 9388152 ON keeling-g17 CANCELLED AT 2025-01-27T16:46:05 DUE TO TIME LIMIT ***
+2025-01-27 16:46:05,132 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,133 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:42051'. Reason: signal-15
+2025-01-27 16:46:05,134 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,136 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:35555. Reason: signal-15
+2025-01-27 16:46:05,137 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,140 - distributed.scheduler - INFO - Remove client Client-worker-db887226-dc3f-11ef-9d0e-98b7851ff9a6
+2025-01-27 16:46:05,141 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44470; closing.
+2025-01-27 16:46:05,141 - distributed.scheduler - INFO - Remove client Client-worker-db887226-dc3f-11ef-9d0e-98b7851ff9a6
+2025-01-27 16:46:05,142 - distributed.scheduler - INFO - Close client connection: Client-worker-db887226-dc3f-11ef-9d0e-98b7851ff9a6
+2025-01-27 16:46:05,141 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,142 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:35666'. Reason: signal-15
+2025-01-27 16:46:05,142 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,145 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44278; closing.
+2025-01-27 16:46:05,145 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,146 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:35555', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.145939')
+2025-01-27 16:46:05,145 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:34245. Reason: signal-15
+2025-01-27 16:46:05,146 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,150 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,151 - distributed.scheduler - INFO - Remove client Client-worker-d079856d-dc3f-11ef-9d0b-98b7851ff9a6
+2025-01-27 16:46:05,151 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44432; closing.
+2025-01-27 16:46:05,152 - distributed.scheduler - INFO - Remove client Client-worker-d079856d-dc3f-11ef-9d0b-98b7851ff9a6
+2025-01-27 16:46:05,152 - distributed.scheduler - INFO - Close client connection: Client-worker-d079856d-dc3f-11ef-9d0b-98b7851ff9a6
+2025-01-27 16:46:05,151 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,152 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:35685'. Reason: signal-15
+2025-01-27 16:46:05,153 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,155 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44282; closing.
+2025-01-27 16:46:05,155 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,155 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:34245', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.1558225')
+2025-01-27 16:46:05,155 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:46060. Reason: signal-15
+2025-01-27 16:46:05,156 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,159 - distributed.scheduler - INFO - Remove client Client-worker-e9334404-dc3f-11ef-9d08-98b7851ff9a6
+2025-01-27 16:46:05,160 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44492; closing.
+2025-01-27 16:46:05,160 - distributed.scheduler - INFO - Remove client Client-worker-e9334404-dc3f-11ef-9d08-98b7851ff9a6
+2025-01-27 16:46:05,159 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,161 - distributed.scheduler - INFO - Close client connection: Client-worker-e9334404-dc3f-11ef-9d08-98b7851ff9a6
+2025-01-27 16:46:05,163 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44280; closing.
+2025-01-27 16:46:05,163 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,161 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,161 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:35085'. Reason: signal-15
+2025-01-27 16:46:05,162 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,163 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:46060', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.1636963')
+2025-01-27 16:46:05,167 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,165 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:42335. Reason: signal-15
+2025-01-27 16:46:05,165 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,169 - distributed.scheduler - INFO - Remove client Client-worker-dfbf96a5-dc3f-11ef-9cf9-98b7851ff9a6
+2025-01-27 16:46:05,169 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44472; closing.
+2025-01-27 16:46:05,169 - distributed.scheduler - INFO - Remove client Client-worker-dfbf96a5-dc3f-11ef-9cf9-98b7851ff9a6
+2025-01-27 16:46:05,170 - distributed.scheduler - INFO - Close client connection: Client-worker-dfbf96a5-dc3f-11ef-9cf9-98b7851ff9a6
+2025-01-27 16:46:05,170 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,170 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:41895'. Reason: signal-15
+2025-01-27 16:46:05,171 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,172 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44274; closing.
+2025-01-27 16:46:05,172 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,172 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:42335', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.1728103')
+2025-01-27 16:46:05,176 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,173 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:38852. Reason: signal-15
+2025-01-27 16:46:05,174 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,177 - distributed.scheduler - INFO - Remove client Client-worker-ee9318e0-dc3f-11ef-9cf7-98b7851ff9a6
+2025-01-27 16:46:05,178 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44514; closing.
+2025-01-27 16:46:05,178 - distributed.scheduler - INFO - Remove client Client-worker-ee9318e0-dc3f-11ef-9cf7-98b7851ff9a6
+2025-01-27 16:46:05,178 - distributed.scheduler - INFO - Close client connection: Client-worker-ee9318e0-dc3f-11ef-9cf7-98b7851ff9a6
+2025-01-27 16:46:05,178 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,179 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:39593'. Reason: signal-15
+2025-01-27 16:46:05,180 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,180 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44276; closing.
+2025-01-27 16:46:05,180 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,181 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:38852', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.1809638')
+2025-01-27 16:46:05,184 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,182 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:33172. Reason: signal-15
+2025-01-27 16:46:05,183 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,186 - distributed.scheduler - INFO - Remove client Client-worker-c2ac52fe-dc3f-11ef-9ce8-98b7851ff9a6
+2025-01-27 16:46:05,187 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44344; closing.
+2025-01-27 16:46:05,187 - distributed.scheduler - INFO - Remove client Client-worker-c2ac52fe-dc3f-11ef-9ce8-98b7851ff9a6
+2025-01-27 16:46:05,188 - distributed.scheduler - INFO - Close client connection: Client-worker-c2ac52fe-dc3f-11ef-9ce8-98b7851ff9a6
+2025-01-27 16:46:05,187 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,188 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:46345'. Reason: signal-15
+2025-01-27 16:46:05,188 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,189 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44272; closing.
+2025-01-27 16:46:05,189 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,190 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:33172', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.1899636')
+2025-01-27 16:46:05,192 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,191 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:36874. Reason: signal-15
+2025-01-27 16:46:05,192 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,195 - distributed.scheduler - INFO - Remove client Client-worker-c821c9b9-dc3f-11ef-9ce2-98b7851ff9a6
+2025-01-27 16:46:05,195 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44390; closing.
+2025-01-27 16:46:05,195 - distributed.scheduler - INFO - Remove client Client-worker-c821c9b9-dc3f-11ef-9ce2-98b7851ff9a6
+2025-01-27 16:46:05,196 - distributed.scheduler - INFO - Close client connection: Client-worker-c821c9b9-dc3f-11ef-9ce2-98b7851ff9a6
+2025-01-27 16:46:05,196 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,196 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:34203'. Reason: signal-15
+2025-01-27 16:46:05,197 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,197 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44266; closing.
+2025-01-27 16:46:05,197 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,198 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:36874', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.1981945')
+2025-01-27 16:46:05,201 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,199 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:42899. Reason: signal-15
+2025-01-27 16:46:05,200 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,203 - distributed.scheduler - INFO - Remove client Client-worker-cc6aae1c-dc3f-11ef-9cdb-98b7851ff9a6
+2025-01-27 16:46:05,203 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44412; closing.
+2025-01-27 16:46:05,203 - distributed.scheduler - INFO - Remove client Client-worker-cc6aae1c-dc3f-11ef-9cdb-98b7851ff9a6
+2025-01-27 16:46:05,204 - distributed.scheduler - INFO - Close client connection: Client-worker-cc6aae1c-dc3f-11ef-9cdb-98b7851ff9a6
+2025-01-27 16:46:05,204 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,204 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:44870'. Reason: signal-15
+2025-01-27 16:46:05,205 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,205 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44268; closing.
+2025-01-27 16:46:05,205 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,206 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:42899', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.2059605')
+2025-01-27 16:46:05,208 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,207 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:42219. Reason: signal-15
+2025-01-27 16:46:05,207 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,210 - distributed.scheduler - INFO - Remove client Client-worker-ca0e2a4c-dc3f-11ef-9cde-98b7851ff9a6
+2025-01-27 16:46:05,211 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44410; closing.
+2025-01-27 16:46:05,211 - distributed.scheduler - INFO - Remove client Client-worker-ca0e2a4c-dc3f-11ef-9cde-98b7851ff9a6
+2025-01-27 16:46:05,211 - distributed.scheduler - INFO - Close client connection: Client-worker-ca0e2a4c-dc3f-11ef-9cde-98b7851ff9a6
+2025-01-27 16:46:05,213 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44270; closing.
+2025-01-27 16:46:05,212 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,213 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:42219', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.213347')
+2025-01-27 16:46:05,213 - distributed._signals - INFO - Received signal SIGTERM (15)
+2025-01-27 16:46:05,213 - distributed.nanny - INFO - Closing Nanny at 'tcp://127.0.0.1:32831'. Reason: signal-15
+2025-01-27 16:46:05,214 - distributed.nanny - INFO - Nanny asking worker to close. Reason: signal-15
+2025-01-27 16:46:05,215 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,216 - distributed.worker - INFO - Stopping worker at tcp://127.0.0.1:34733. Reason: signal-15
+2025-01-27 16:46:05,217 - distributed.worker - INFO - Removing Worker plugin shuffle
+2025-01-27 16:46:05,219 - distributed.scheduler - INFO - Remove client Client-worker-c4b9555c-dc3f-11ef-9cd0-98b7851ff9a6
+2025-01-27 16:46:05,220 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44370; closing.
+2025-01-27 16:46:05,220 - distributed.scheduler - INFO - Remove client Client-worker-c4b9555c-dc3f-11ef-9cd0-98b7851ff9a6
+2025-01-27 16:46:05,220 - distributed.scheduler - INFO - Close client connection: Client-worker-c4b9555c-dc3f-11ef-9cd0-98b7851ff9a6
+2025-01-27 16:46:05,222 - distributed.core - INFO - Received 'close-stream' from tcp://127.0.0.1:44264; closing.
+2025-01-27 16:46:05,222 - distributed.core - INFO - Connection to tcp://127.0.0.1:8786 has been closed.
+2025-01-27 16:46:05,222 - distributed.scheduler - INFO - Remove worker <WorkerState 'tcp://127.0.0.1:34733', status: closing, memory: 0, processing: 0> (stimulus_id='handle-worker-cleanup-1738017965.2225313')
+2025-01-27 16:46:05,222 - distributed.scheduler - INFO - Lost all workers
+2025-01-27 16:46:05,224 - distributed.nanny - INFO - Worker closed
+2025-01-27 16:46:05,576 - distributed.dask_worker - INFO - End worker
