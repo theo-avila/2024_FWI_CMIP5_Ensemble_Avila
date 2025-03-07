@@ -1,5 +1,5 @@
 # 2025_FWI_CMIP5_Ensemble_Avila
-**US Western Physical Wildfire Risk Variability and Projections in Statistically Downscaled and Bias-Corrected Climate Model Ensembles**
+**Downscaled Climate Model Predictions of Fire Weather Intensification Understate Historical Trends**
 
 
 Theo Avila<sup>1*</sup>, David Lafferty<sup>2</sup>, Madeline Stover<sup>2</sup>, Spencer Guerrero<sup>2</sup>, Charumeghana Samantula<sup>3</sup>, Ian Sue Wing<sup>4</sup>, Ryan L. Sriver<sup>2</sup><br>
