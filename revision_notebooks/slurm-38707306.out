@@ -1,0 +1,15 @@
+2025-05-24 19:44:09,010 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.1.178:46707'
+2025-05-24 19:44:11,090 - distributed.worker - INFO -       Start worker at:     tcp://10.6.1.178:44917
+2025-05-24 19:44:11,090 - distributed.worker - INFO -          Listening to:     tcp://10.6.1.178:44917
+2025-05-24 19:44:11,090 - distributed.worker - INFO -           Worker name:             SLURMCluster-7
+2025-05-24 19:44:11,090 - distributed.worker - INFO -          dashboard at:           10.6.1.178:43429
+2025-05-24 19:44:11,090 - distributed.worker - INFO - Waiting to connect to: tcp://146.186.150.11:40059
+2025-05-24 19:44:11,090 - distributed.worker - INFO - -------------------------------------------------
+2025-05-24 19:44:11,090 - distributed.worker - INFO -               Threads:                          1
+2025-05-24 19:44:11,090 - distributed.worker - INFO -                Memory:                 100.00 GiB
+2025-05-24 19:44:11,090 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-rx5zih1g
+2025-05-24 19:44:11,091 - distributed.worker - INFO - -------------------------------------------------
+2025-05-24 19:44:11,130 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-05-24 19:44:11,130 - distributed.worker - INFO -         Registered to: tcp://146.186.150.11:40059
+2025-05-24 19:44:11,131 - distributed.worker - INFO - -------------------------------------------------
+2025-05-24 19:44:11,131 - distributed.core - INFO - Starting established connection to tcp://146.186.150.11:40059

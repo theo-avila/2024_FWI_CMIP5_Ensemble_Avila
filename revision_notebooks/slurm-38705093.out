@@ -1,0 +1,37 @@
+2025-05-24 17:54:10,191 - distributed.nanny - INFO -         Start Nanny at: 'tcp://10.6.1.163:45833'
+2025-05-24 17:54:11,189 - distributed.worker - INFO -       Start worker at:     tcp://10.6.1.163:42885
+2025-05-24 17:54:11,189 - distributed.worker - INFO -          Listening to:     tcp://10.6.1.163:42885
+2025-05-24 17:54:11,189 - distributed.worker - INFO -           Worker name:             SLURMCluster-0
+2025-05-24 17:54:11,189 - distributed.worker - INFO -          dashboard at:           10.6.1.163:36173
+2025-05-24 17:54:11,189 - distributed.worker - INFO - Waiting to connect to: tcp://146.186.150.11:35323
+2025-05-24 17:54:11,190 - distributed.worker - INFO - -------------------------------------------------
+2025-05-24 17:54:11,190 - distributed.worker - INFO -               Threads:                          1
+2025-05-24 17:54:11,190 - distributed.worker - INFO -                Memory:                 100.00 GiB
+2025-05-24 17:54:11,190 - distributed.worker - INFO -       Local Directory: /tmp/dask-scratch-space/worker-kjhdmy8p
+2025-05-24 17:54:11,190 - distributed.worker - INFO - -------------------------------------------------
+2025-05-24 17:54:11,239 - distributed.worker - INFO - Starting Worker plugin shuffle
+2025-05-24 17:54:11,239 - distributed.worker - INFO -         Registered to: tcp://146.186.150.11:35323
+2025-05-24 17:54:11,239 - distributed.worker - INFO - -------------------------------------------------
+2025-05-24 17:54:11,240 - distributed.core - INFO - Starting established connection to tcp://146.186.150.11:35323
+2025-05-24 18:30:24,829 - distributed.worker - ERROR - Compute Failed
+Key:       model_climatology-968ec786-5bc2-4a49-876a-34ccebf49668
+State:     executing
+Task:  <Task 'model_climatology-968ec786-5bc2-4a49-876a-34ccebf49668' model_climatology(...)>
+Exception: 'AttributeError("\'DataArrayGroupBy\' object has no attribute \'map_blocks\'")'
+Traceback: '  File "/tmp/ipykernel_2988808/2287542757.py", line 31, in model_climatology\n'
+
+2025-05-24 18:32:35,014 - distributed.worker - ERROR - Compute Failed
+Key:       model_climatology-8c9f988c-6949-401b-99cd-2af451780c7f
+State:     executing
+Task:  <Task 'model_climatology-8c9f988c-6949-401b-99cd-2af451780c7f' model_climatology(...)>
+Exception: 'AttributeError("\'DataArrayGroupBy\' object has no attribute \'compute\'")'
+Traceback: '  File "/tmp/ipykernel_2988808/3643833314.py", line 29, in model_climatology\n'
+
+2025-05-24 18:33:11,723 - distributed.worker - ERROR - Compute Failed
+Key:       model_climatology-a3808024-b27e-4dae-95ea-1d3c3b41662a
+State:     executing
+Task:  <Task 'model_climatology-a3808024-b27e-4dae-95ea-1d3c3b41662a' model_climatology(...)>
+Exception: 'AttributeError("\'DataArrayGroupBy\' object has no attribute \'values\'")'
+Traceback: '  File "/tmp/ipykernel_2988808/4048197669.py", line 30, in model_climatology\n'
+
+slurmstepd: error: *** JOB 38705093 ON p-sc-2393 CANCELLED AT 2025-05-24T18:54:19 DUE TO TIME LIMIT ***
