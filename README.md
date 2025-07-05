@@ -11,7 +11,7 @@ Theo Avila<sup>1*</sup>, David Lafferty<sup>2</sup>, Madeline Stover<sup>2</sup>
 
 <sup>*</sup> corresponding author: ctavila2@illinois.edu
 
-### 📄 Citation
+### How to cite
 
 If you use this repository or find it helpful, please cite:
 
