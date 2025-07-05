@@ -1,5 +1,5 @@
 # 2025_FWI_CMIP5_Ensemble_Avila
-**Downscaled Climate Model Predictions of Fire Weather Intensification Understate Historical Trends**
+**Downscaled CMIP5 projections of physical fire risk understate historical trends**
 
 
 Theo Avila<sup>1*</sup>, David Lafferty<sup>2</sup>, Madeline Stover<sup>2</sup>, Spencer Guerrero<sup>2</sup>, Charumeghana Samantula<sup>3</sup>, Ian Sue Wing<sup>4</sup>, Ryan L. Sriver<sup>2</sup><br>
@@ -10,3 +10,21 @@ Theo Avila<sup>1*</sup>, David Lafferty<sup>2</sup>, Madeline Stover<sup>2</sup>
 <sup>4</sup> Department of Earth and Environment, Boston University, Boston, MA, United States of America<br>
 
 <sup>*</sup> corresponding author: ctavila2@illinois.edu
+
+### 📄 Citation
+
+If you use this repository or find it helpful, please cite:
+
+> **Avila, T.**, Lafferty, D., Stover, M., Guerrero, S., Samantula, C., Sue Wing, I., & Sriver, R. L. (2025). *Downscaled CMIP5 projections of physical fire risk understate historical trends*. *Environmental Research Letters*. https://doi.org/10.1088/1748-9326/ad2f22
+
+<details>
+<summary>BibTeX</summary>
+
+```bibtex
+@article{avila2025fire,
+  author = {Avila, Theo and Lafferty, David and Stover, Madeline and Guerrero, Spencer and Samantula, Charumeghana and Sue Wing, Ian and Sriver, Ryan L.},
+  title = {Downscaled CMIP5 projections of physical fire risk understate historical trends},
+  journal = {Environmental Research Letters},
+  year = {2025},
+  doi = {10.1088/1748-9326/ad2f22}
+}
